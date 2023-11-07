@@ -4,3 +4,5 @@ This simple project is a way to practice command line basics, git, github, and h
 
 Recipe credits:
 - Gravlax from The Spruce Eats: https://www.thespruceeats.com/simple-homemade-gravlax-recipe-2216618
+
+- Mulled wine from Cookie and Kate: https://cookieandkate.com/classic-mulled-wine-recipe/
