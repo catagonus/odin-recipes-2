@@ -1,0 +1,66 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-style: italic;
+}
+
+.homepage {
+    background-color: slategray;
+    color: snow;
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+.homepage a:hover {
+    font-family: 'Times New Roman';
+    font-size: 40px;
+}
+
+.homepage a {
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+.homepage h1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+.recipe-card {
+    width: 60%;
+    margin: auto;
+}
+
+.mulled-wine {
+    background-color: linen;
+    color: maroon;
+}
+
+.mulled-wine a:visited {
+    color: gray;
+}
+
+.gravlax {
+    background-color: lightsalmon;
+    color: teal;
+}
+
+.kransekake {
+    background-color: lightcyan;
+    color: burlywood;
+}
+
+.kransekake a:visited {
+    color: tan;
+}
+
+
+
