@@ -1,66 +1,150 @@
-* {
-    font-family: 'Courier New', Courier, monospace;
+@import url(https://db.onlinewebfonts.com/c/b035e59ac22774fdd85a07c62298d7d3?family=Nesans);
+@import url(https://db.onlinewebfonts.com/c/0464e760b91808904fc1c5db464da6ee?family=KoloNarrow);
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+
+
+body {
+    background-color: #FBFCFF;
+    margin: 0;
 }
 
 a {
     text-decoration: none;
+    color: #1C6E8C;
 }
 
-a:hover {
-    font-style: italic;
+.navbar {
+    background-color: #D0CCD0;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    padding: .2em;
+    display: flex;
+    align-items: center;
 }
 
-.homepage {
-    background-color: slategray;
-    color: snow;
+#logo {
+    color: #274156;
+    font-family: "Yanone Kaffeesatz";
+    font-weight: 500;
+    font-size: 2em;
+    display: inline-block;
+    width: 100px;
+    margin-left: .2em;
 }
 
-a:visited {
-    color: whitesmoke;
+.navbar a {
+    color: #1C6E8C;
+    display: inline-block;
+    height: 100%;
+    width: 200px;
+    font-family: "Inter";
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: .9em;
 }
 
-.homepage a:hover {
-    font-family: 'Times New Roman';
-    font-size: 40px;
+.navbar button {
+    background-color: #1C6E8C;
+    color: #FBFCFF;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+    margin: .2em;
+    display: inline-block;
+    margin-right: .5em;
+    margin-left: auto;
+    font-family: "Inter";
+    font-weight: 400;
 }
 
-.homepage a {
-    margin-left: 20px;
-    font-size: 40px;
+.main-title {
+    font-size: 5em;
 }
 
-.homepage h1 {
+h1 {
+    font-family: "Gruppo";
+    color: #274156;
     text-align: center;
-    font-size: 80px;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 300;
 }
 
-.recipe-card {
-    width: 60%;
-    margin: auto;
+h2 {
+    font-family: "Inter";
+    color: #1C6E8C;
 }
 
-.mulled-wine {
-    background-color: linen;
-    color: maroon;
+p {
+    font-family: "Alegreya";
+    color: #274156;
 }
 
-.mulled-wine a:visited {
-    color: gray;
+.recipe-blurb {
+    display: flex;
+    align-items: center;
+    margin-left: 3em;
+    margin-bottom: 1em;
+    font-family: "Inter";
 }
 
-.gravlax {
-    background-color: lightsalmon;
-    color: teal;
+.recipe-blurb a {
+    margin-left: 1em;
 }
 
-.kransekake {
-    background-color: lightcyan;
-    color: burlywood;
+.main-image {
+    display: block;
+    margin: 0 auto;
 }
 
-.kransekake a:visited {
-    color: tan;
+.recipe-page {
+    width: 70%;
+    margin: 0 auto;
+    color: #274156;
+    font-family: "Alegreya";
 }
 
+.steps ol {
+    font-size: 1.2em;
+}
+
+.home-recipes {
+    width: 99%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.home-link {
+    align-items: center;
+    height: 200px;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "Inter";
+    font-weight: 300;
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 33%;
+}
+
+.home-recipes a {
+    background-color: #605856;
+    color: #FBFCFF;
+}
+
+.gravlax-link {
+    background-image: url("https://www.thespruceeats.com/thmb/yOYfNOTi57z2inszcKBbr-3EJHg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/simple-homemade-gravlax-recipe-2216618-hero-01-3f4fd41af01643898e8972302fb876a0.jpg");
+}
+
+.mulled-wine-link {
+    background-image: url("https://cookieandkate.com/images/2020/11/classic-mulled-wine-recipe-4-768x1152.jpg") ;
+}
+
+.kransekake-link {
+    background-image: url("https://thesimple-sweetlife.com/wp-content/uploads/2020/09/IMG_4147.jpg");
+}
 
 
